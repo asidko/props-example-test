@@ -1,0 +1,7 @@
+config:
+  users:
+    admin:
+      email: ${ADMIN_EMAIL:qa-automation@gmail.com}
+      password: ${ADMIN_PASSWORD:12345Test}
+      passcode: ${ADMIN_PASSCODE:123456}
+      url: ${ADMIN_URL:#{'https://admin-dev.habitu.health/'}}
